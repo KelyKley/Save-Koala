@@ -181,7 +181,37 @@ footer{
 }
 
 
+sup, sub {
+	font-size: 20px;
+}
+
+sup{
+	position: relative;
+	padding-top: 0;
+}
 /*
 wood brown: A89F68;
 army green: 41521F;
 */
+.lista-menu{
+ 	display: block;
+ }
+.sangu{
+ 	display: none;
+ }
+@media(max-width: 990px){
+	.lista-menu {
+    display: hidden;
+  }
+	.sangu{
+		display: block;
+		text-align: right;
+	}
+}
+
+.color{
+	color: white;
+	font-size: 30px;
+	background-color: transparent;
+	border-radius: 10px;
+}
